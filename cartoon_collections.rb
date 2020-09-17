@@ -20,6 +20,9 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.all? do |num|
     if
   num.length > 4
+  puts "True"
+else
+  puts "False"
 end
 end
 
